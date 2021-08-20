@@ -1,0 +1,24 @@
+.header {
+	min-height: 100vh;
+	background: url(../img/header-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	@media only screen and (max-width: $tab-port) {
+		background: linear-gradient(to right, rgba(215, 56, 93, 0.8), #6c1c2f);
+		min-height: auto;
+		padding-bottom: 10rem;
+	}
+
+	&__content {
+		padding-top: 20rem;
+	}
+
+	.sub__heading {
+		max-width: 40ch;
+
+		@media only screen and (max-width: $tab-port) {
+			margin: 0 auto;
+		}
+	}
+}

@@ -1,0 +1,18 @@
+.how-it-works {
+	padding: 10rem 0;
+
+	&--card {
+		padding: 1rem;
+		margin-bottom: 3rem;
+		svg {
+			width: 8rem;
+			height: 8rem;
+			margin: 0 auto;
+		}
+
+		.heading {
+			max-width: 15ch;
+			margin: 0 auto;
+		}
+	}
+}

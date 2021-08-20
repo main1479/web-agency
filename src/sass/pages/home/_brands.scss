@@ -1,0 +1,39 @@
+.brands {
+	padding-top: 4rem;
+	padding-bottom: 10rem;
+	&__slider {
+		.owl-nav {
+			display: block !important;
+
+			.owl-prev,
+			.owl-next {
+				position: absolute;
+				top: 50%;
+				span {
+					font-size: 8rem;
+					color: $color-text;
+					line-height: 0;
+				}
+
+				&:hover {
+					background: none;
+				}
+			}
+
+			.owl-prev {
+				left: -100px;
+			}
+			.owl-next {
+				right: -100px;
+			}
+
+			@media only screen and (max-width: $laptop-land) {
+				.owl-prev,
+				.owl-next {
+					margin-top: 5rem;
+					position: relative;
+				}
+			}
+		}
+	}
+}

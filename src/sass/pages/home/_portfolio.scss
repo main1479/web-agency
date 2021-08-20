@@ -1,0 +1,30 @@
+.portfolio {
+	padding-top: 10rem;
+
+	&__card {
+		background: #f5f2f2;
+		margin-bottom: 3rem;
+		transition: all 0.3s;
+
+		&:hover {
+			box-shadow: 0 0 40px rgba($color-secondary, 0.1);
+		}
+
+		&-img {
+			width: 100%;
+
+			img {
+				width: 100%;
+			}
+		}
+		&-body {
+			padding: 2rem 2.3rem 4rem 2.3rem;
+		}
+
+		&-title {
+			font-family: $font-gilroy;
+			font-weight: bold;
+			font-size: 2.2rem;
+		}
+	}
+}

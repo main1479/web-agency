@@ -1,0 +1,44 @@
+.btn {
+	color: $color-text;
+	font-size: 2rem;
+	font-weight: bold;
+	border-radius: 1.1rem;
+	padding: 1.2rem 2.5rem;
+	font-family: $font-helvetica;
+	@media only screen and (max-width: $tab-port) {
+		font-size: 16px;
+	}
+
+	&__primary {
+		background: $color-primary;
+		border: 2px solid $color-primary;
+		padding: 1.5rem 7rem;
+		color: $color-white;
+		&:hover {
+			background: none;
+			border-color: currentColor;
+			color: $color-white;
+		}
+
+		&--small {
+			padding: 1.2rem 4.5rem;
+		}
+	}
+	&__secondary {
+		background: $color-white;
+		padding: 1.5rem 7rem;
+		color: $color-secondary;
+		&:hover {
+			background: $color-secondary;
+			color: $color-white;
+		}
+		&--small {
+			padding: 1.2rem 4.5rem;
+		}
+	}
+
+	&-full {
+		display: block;
+		width: 100%;
+	}
+}
